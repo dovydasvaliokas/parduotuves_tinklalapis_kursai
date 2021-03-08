@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <title>Puslapis</title>
+</head>
+
+<body>
+    <form action="PrekesRedagavimoServlet" method="POST">
+        <label for="pav">Įveskite naują pavadinimą</label>
+        <input type="text" name="pav" id="pav">
+        <br>
+        <label for="kaina">Įveskite naują kainą</label>
+        <input type="number" name="kaina" id="kaina" step="0.01">
+        <br>
+        <label for="kiekis">Įveskite naują kiekį</label>
+        <input type="number" name="kiekis" id="kiekis">
+        <br>
+        <label for="aprasas">Įveskite naują aprašą</label>
+        <input type="text" name="aprasas" id="aprasas">
+        <br>
+        <label for="id">Įveskite keičiamos prekės ID</label>
+        <input type="number" name="id" id="id">
+        <br>
+        <input type="submit" value="Redaguoti preke">
+    </form>
+</body>
+
+</html>
